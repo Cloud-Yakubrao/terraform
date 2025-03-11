@@ -1,4 +1,4 @@
 module "dev" {
- source = "../modules/vpc"
+ source = "../modules/networking"
  cidr_block= "10.110.0.0/24"
      }
